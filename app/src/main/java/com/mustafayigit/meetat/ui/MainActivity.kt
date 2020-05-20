@@ -1,7 +1,8 @@
-package com.mustafayigit.meetat
+package com.mustafayigit.meetat.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.mustafayigit.meetat.R
 
 class MainActivity : AppCompatActivity() {
 
