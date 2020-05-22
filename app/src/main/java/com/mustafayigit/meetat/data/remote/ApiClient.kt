@@ -9,8 +9,8 @@ import retrofit2.converter.gson.GsonConverterFactory
  */
 class ApiClient {
     companion object {
-        private const val BASE_URL = ""
-        fun <T> getClient(service: Class<T>): Retrofit {
+        private const val BASE_URL = "http://www.mocky.io/v2/"
+        fun <T> getClient(): Retrofit {
             return Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
